@@ -20,6 +20,7 @@
         "illuminate/view": "^11.42",
         "illuminate/filesystem": "^11.42",
         "illuminate/container": "^11.42",
-        "illuminate/events": "^11.42"
+        "illuminate/events": "^11.42",
+        "robmorgan/phinx": "^0.16.6"
     }
 }
