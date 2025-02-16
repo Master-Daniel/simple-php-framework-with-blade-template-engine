@@ -11,7 +11,7 @@ To run the application on a local server ensure you have the following installed
 
 # Run application on a local server
 1. Clone the repository to your local machine using the following command in your terminal or command prompt
-- [https://github.com/Master-Daniel/simple-php-framework-with-blade-template-engine.git](https://github.com/Master-Daniel/simple-php-framework-with-blade-template-engine.git)
+- git clone [https://github.com/Master-Daniel/simple-php-framework-with-blade-template-engine.git](https://github.com/Master-Daniel/simple-php-framework-with-blade-template-engine.git)
 - cd /simple-php-framework-with-blade-template-engine
 - composer update
 
