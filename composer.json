@@ -1,0 +1,25 @@
+{
+    "name": "dannyokec/realnaps",
+    "description": "AI Virtual betting prediction software",
+    "type": "project",
+    "require-dev": {
+        "vlucas/phpdotenv": "^5.6",
+        "bramus/router": "^1.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dannyokec\\Realnaps\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dannyokec Developers Hub"
+        }
+    ],
+    "require": {
+        "illuminate/view": "^11.42",
+        "illuminate/filesystem": "^11.42",
+        "illuminate/container": "^11.42",
+        "illuminate/events": "^11.42"
+    }
+}
