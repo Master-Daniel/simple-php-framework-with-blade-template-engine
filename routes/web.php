@@ -1,7 +1,6 @@
 <?php
 
 use Bramus\Router\Router;
-use Dannyokec\Realnaps\Controllers\DashboardController;
 
 require BASE_PATH . '/vendor/autoload.php';
 
@@ -9,14 +8,9 @@ $router = new Router();
 
 // Define home route
 $router->get('/', function () use ($blade) {
-    echo $blade->make('home', ['title' => 'Welcome'])->render();
+    echo $blade->make('home', ['title' => 'Welcome', 'user' => 'John Doe'])->render();
 });
 
-// Define dashboard route
-$router->get('/dashboard', function () use ($db, $blade) {
-    $controller = new DashboardController($db, $blade);
-    $controller->index();
-});
 
 // Handle 404 errors
 $router->set404(function () use ($blade) {
