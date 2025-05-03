@@ -9,7 +9,7 @@ use Illuminate\View\Engines\PhpEngine;
 use Illuminate\View\Compilers\BladeCompiler;
 use Illuminate\View\FileViewFinder;
 use Illuminate\View\Factory;
-use Dannyokec\Realnaps\Helpers\Helpers;
+use EliteCodec\SwiftPeso\Helpers\Helpers;
 
 // Define paths
 $views = BASE_PATH . '/resources/views';
