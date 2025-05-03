@@ -1,6 +1,6 @@
 {
-    "name": "dannyokec/realnaps",
-    "description": "AI Virtual betting prediction software",
+    "name": "elitecodec/realnaps",
+    "description": "",
     "type": "project",
     "require-dev": {
         "vlucas/phpdotenv": "^5.6",
@@ -8,12 +8,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Dannyokec\\Realnaps\\": "app/"
+            "EliteCodec\\SwiftPeso\\": "app/"
         }
     },
     "authors": [
         {
-            "name": "Dannyokec Developers Hub"
+            "name": "EliteCodec Developers Hub"
         }
     ],
     "require": {
